@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "app1",
+      "app2"
+    ],
+    "nohoist": [
+      "**"
+    ]
+  },
+  "scripts": {
+    "start": "lerna run --parallel start"
+  },
+  "devDependencies": {
+    "lerna": "3.22.1"
+  }
+}
